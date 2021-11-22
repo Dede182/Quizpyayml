@@ -1,0 +1,80 @@
+ *{
+      padding:0;
+      margin:0;
+      box-sizing: border-box;
+      list-style: none;
+    }
+    body{
+        height:100vh;
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:rgb(12, 12, 12);
+        color:#fff;
+    }
+    .wrapper{
+        height:50vh;
+        width:35%;
+    }
+    .show{
+        height: 100%;
+        width:100%;
+        background:#000;
+        position:relative;
+        padding:5px 15px;
+        padding-top:10px;
+        border-radius:10px;
+    }
+    .quiz{
+     position: absolute;
+     content:'';
+     top:2px;
+     left:2px;
+     width:calc(100% + 2px);
+     height:calc(100% + 2px);
+     background:#fff;
+     z-index:-1;
+     filter:blur(10px);
+     background-size: 400%;
+
+    }
+    h2{
+      text-align: center;
+      margin-bottom: 10px;
+      z-index: 1;
+      font-size:1.4em;
+    }
+    ul li input,ul li,ul li label{
+      cursor:pointer;
+    }
+    label{
+      margin-left:10px;
+    }
+    button{
+      width:90%;
+      margin-left:20px;
+      background-color: rgb(33, 223, 201);
+      border:none;
+      padding:8px 10px;
+      margin-top:20px;
+      cursor:pointer;
+    }
+    button:hover{
+      background:rgb(37, 117, 198);
+    }
+    ul li{
+      margin-bottom: 8px;
+    }
+    @media screen and (max-width:1400px) {
+        .wrapper{
+            height:40vh;
+            width:40%;
+        }
+    }
+@media screen and (max-width:700px) {
+    .wrapper{
+        height:40vh;
+        width:55%;
+    }
+}
