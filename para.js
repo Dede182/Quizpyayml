@@ -4,7 +4,7 @@ const quizdata = [
         a:"Viloet garden",
         b:"Black clover",
         c:"Jujustu kaisen",
-        d:"Towr of god",
+        d:"Tower of god",
         ra : 'c'
     },
     {
