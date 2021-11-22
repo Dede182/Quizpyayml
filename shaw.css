@@ -14,7 +14,7 @@
         color:#fff;
     }
     .wrapper{
-        height:50vh;
+        height:55vh;
         width:35%;
     }
     .show{
@@ -66,15 +66,23 @@
     ul li{
       margin-bottom: 8px;
     }
-    @media screen and (max-width:1400px) {
-        .wrapper{
-            height:40vh;
-            width:40%;
-        }
-    }
 @media screen and (max-width:700px) {
     .wrapper{
-        height:40vh;
-        width:75%;
+        height:40vh!important;
+        width:65%!important;
+    }
+    h2{
+        margin-bottom:20px;
+    }
+    ul li{
+        margin-bottom: 14px;
+      }
+    button{
+        position: absolute!important;
+        bottom:40px!important;
+        margin:0;
+        left :0;
+        right:0;
+        margin-left:15px;
     }
 }
